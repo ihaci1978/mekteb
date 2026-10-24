@@ -1,0 +1,34 @@
+
+[autorun]
+open = Setup.exe
+ICON = Setup.exe
+
+////////////////////////////////////////////////
+//
+// For Windows 9x USB Port Driver and
+//     Windws 9x/2000/XP Vender Setup
+//
+// Installer Version
+////////////////////////////////////////////////
+[INFOMATION]
+VERSION = 
+
+MFG_0=Xerox
+MDL_0=WorkCentre 3225 
+
+DRIVER_NAME_0=Xerox WorkCentre 3225 
+
+
+////////////////////////////////////////////////////////////////////////
+// For Windows XP PnP . Set Printer to PCL
+////////////////////////////////////////////////////////////////////////
+[DeviceInstall]
+DriverPath=PRINTER\SPL_PCL_COLOR
+DriverPath=PRINTER\SPL_PCL
+DriverPath=PRINTER\SPL_COLOR
+DriverPath=PRINTER\SPL
+DriverPath=PRINTER\PCL_COLOR
+DriverPath=PRINTER\PCL
+DriverPath=Scanner
+
+

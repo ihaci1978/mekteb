@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" ?>
+<INFORMATION>
+
+	
+	<!-- Warning Message section -->	
+	<WARNING_MESSAGES>
+		<WARNING_MESSAGE_OS_VERSION>@IDS_STR_WARNING_MSG@</WARNING_MESSAGE_OS_VERSION>
+		<WARNING_MESSAGE_FREE_SPACE>@IDS_STR_WARNING_FREESPACE@</WARNING_MESSAGE_FREE_SPACE>
+		<WARNING_MESSAGE_IE_VERSION>@IDS_STR_WARNING_IE@</WARNING_MESSAGE_IE_VERSION>
+		<WARNING_MESSAGE_ADMIN>@IDS_STR_WARNING_ADMIN@</WARNING_MESSAGE_ADMIN>
+
+		<WARNING_MESSAGE_TERMINATE>@COMMON.TERMINATE_MSG@</WARNING_MESSAGE_TERMINATE>
+		<WARNING_MESSAGE_NO_COMPONENT>@COMMON.NO_COMPONENT_MSG@</WARNING_MESSAGE_NO_COMPONENT>
+	</WARNING_MESSAGES>
+	
+	
+	
+	<!-- String section -->
+	<STRINGS>
+		<__PUBLISHER__>Xerox Corporation</__PUBLISHER__>
+		
+		<__INSTALLER_FIE__>Setup.exe</__INSTALLER_FIE__>		
+
+		<__MODEL_IMAGE__>$INST_SRC_DIR$\data\bitmap\Model\Model.gif</__MODEL_IMAGE__>
+		<__DEF_MODEL_IMG__>$INST_SRC_DIR$\data\bitmap\CommonModel.png</__DEF_MODEL_IMG__>
+		
+		<__AND__>&amp;&amp;</__AND__>
+		<__NEXT__>&gt;</__NEXT__>
+		<__BACK__>&lt;</__BACK__>
+		
+		<__CFXML__>$INST_SRC_DIR$\Data\cf.xml</__CFXML__>
+		<__CF_OFF_XML__>$INST_SRC_DIR$\Data\cfoff.xml</__CF_OFF_XML__>
+		
+		<__MANUAL_VIEWER__>$INST_SRC_DIR$\bin\ViewUserGuide.exe</__MANUAL_VIEWER__>
+		<__MANUAL_DIR__>$SRC_DIR$\MANUAL</__MANUAL_DIR__>	
+		<__MANUAL_VIEWER_DEST__>$PROGRAM_FILES_DIR$\__MFG__\View User Guide\ViewUserGuide.exe</__MANUAL_VIEWER_DEST__>
+		<__USER_GUIDE_NAME_ZIP__>$SRC_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$.zip</__USER_GUIDE_NAME_ZIP__>		
+		<__OPEN_USER_GUIDE_ZIP_COMMAND__>__USER_GUIDE_NAME_ZIP__</__OPEN_USER_GUIDE_ZIP_COMMAND__>
+		
+		<__USER_GUIDE_NAME__>$SRC_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$\Guide_$LANG_ABBR$.pdf</__USER_GUIDE_NAME__>
+		<__TOTAL_UNINSTALLER_DEST__>$PROGRAM_FILES_DIR$\__MFG__\TotalUninstaller\TotalUninstaller.exe</__TOTAL_UNINSTALLER_DEST__>
+		<__SETIP_PATH__>$SRC_DIR$\Application\SetIP\setup.exe</__SETIP_PATH__>
+		<__WARRANTY_PATH__>$SRC_DIR$\Setup\Data\Warranty\warranty.pdf</__WARRANTY_PATH__>
+		<__EPM_PARAM__>/P="$PORT$" /IP="$IP$" /DeviceID="Mode: $DEVICEID.MODE$" /ExtDeviceID="$EXTDEVICEID$"</__EPM_PARAM__>
+		<__SCAN_ID_EXE__>$PROGRAM_FILES_DIR$\__MFG__\Easy Printer Manager\ScanIDDialog.exe</__SCAN_ID_EXE__>
+
+	</STRINGS>
+	
+	<SILENT_INSTALL_STRINGS>
+		<STR_SILENT_INSTALL.USAGE>@USAGE.EN@</STR_SILENT_INSTALL.USAGE>
+		<STR_SILENT_INSTALL.INVALID_PRINTERNAME>@SET_PRINTER_MSG_INVALID_PRINTER_NAME@</STR_SILENT_INSTALL.INVALID_PRINTERNAME>
+		<STR_SILENT_INSTALL.INVALID_SHARENAME>@SET_PRINTER_MSG_INVALID_SHARE_NAME@</STR_SILENT_INSTALL.INVALID_SHARENAME>
+	</SILENT_INSTALL_STRINGS>
+	
+	
+	<!-- Model Information -->
+	<RESOURCE>
+		<MODEL_IMAGE>__MODEL_IMAGE__</MODEL_IMAGE>
+		<DEFAULT_IMAGE>__DEF_MODEL_IMG__</DEFAULT_IMAGE>
+	</RESOURCE>
+	
+	<MANUAL>
+		<HTML_MANUAL_FILE_PATH>__USER_GUIDE_NAME__</HTML_MANUAL_FILE_PATH>
+		<HTML_MANUAL_FILE_ZIP>__USER_GUIDE_NAME_ZIP__</HTML_MANUAL_FILE_ZIP>
+		<PDF_MANUAL_FILE_PATH>__PDF_USER_GUIDE_NAME__</PDF_MANUAL_FILE_PATH>
+	</MANUAL>
+	
+	<AMPV_AGREE>		
+		<TRUE>
+			<AMPV_TRUE/>		
+			<AMPV_TRUE_64/>		
+		</TRUE>
+		
+		<FALSE>
+			<AMPV_FALSE/>
+			<AMPV_FALSE_64/>
+		</FALSE>	
+	</AMPV_AGREE>
+
+	<WEBTS_AGREE>		
+		<TRUE>
+			<WEBTS_TRUE/>		
+			<WEBTS_TRUE_64/>		
+		</TRUE>
+		
+		<FALSE>
+			<WEBTS_FALSE/>
+			<WEBTS_FALSE_64/>
+		</FALSE>	
+	</WEBTS_AGREE>
+	
+	
+	<SMARTUPDATE_AGREE>		
+		<TRUE>
+			<SMARTUPDATE_TRUE/>		
+			<SMARTUPDATE_TRUE_64/>		
+		</TRUE>
+		
+		<FALSE>
+			<SMARTUPDATE_FALSE/>
+			<SMARTUPDATE_FALSE_64/>
+		</FALSE>	
+	</SMARTUPDATE_AGREE>
+	
+	<VC_REDIST>
+		<PATH>SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\</PATH>
+		<SSID>{9BE518E6-ECC6-35A9-88E4-87755C07200F}</SSID>
+		<VERSION>9.0.30729.6161</VERSION>
+	</VC_REDIST>
+	
+	<SOFTAP wpfile="$INST_SRC_DIR$\Data\WLanProfile.xml"/>
+
+
+	<DCU
+		cf_xml="$INST_SRC_DIR$\Data\smon.xml"
+		cf_off_xml="$INST_SRC_DIR$\Data\smoff.xml"
+		eed_cf_xml="$INST_SRC_DIR$\Data\eedon.xml"
+		eed_cf_off_xml="$INST_SRC_DIR$\Data\eedoff.xml"
+		sm_eed_cf_xml="$INST_SRC_DIR$\Data\smoneedon.xml"
+		sm_eed_cf_off_xml="$INST_SRC_DIR$\Data\smoffeedoff.xml"
+		sm_on_eed_off_xml="$INST_SRC_DIR$\Data\smoneedoff.xml"
+		sm_off_eed_on_xml="$INST_SRC_DIR$\Data\smoffeedon.xml"
+		config_file_32="$INST_SRC_DIR$\bin\DrvConfig.exe"
+		config_file_64="$INST_SRC_DIR$\bin\DrvConfig64.exe"
+	/>
+	
+		
+	<!-- Components information to be installed -->
+
+	<COMPONENTS>
+
+		<INSTALL_ORDER>
+			<SPL_PCL/>
+			<SPL/>
+			<PCL/>
+			<PS/>
+			<XPS/>
+			<SCANNER/>
+			<SCANNER_INF/>
+			<EPM/>
+			<EDC/>
+			<NETPCFAX/>			
+			<OCR/>
+			<WIRELESS_SETTING_PROGRAM/>
+			<FIRMWARE/>
+		</INSTALL_ORDER>
+		<!-- 
+	<< Attributes >>
+	
+	- class: inf class name
+	- copy_file: Copy file option when installation "ALWAYS", "FALSE", "SELECT", "SELECT_ADDITIONAL_ONLY", "ALWAYS_ADDITIONAL_ONLY" (Default = "SELECT")
+	- additional_copyfile: additional copy file information described under <FILE_INFO>
+	- option
+	
+	<< Sub Elements >>
+	
+		<DISPLAY_NAME>	: display name string ( %s in the string will be translate with driver name )
+		
+		<DESCRIPTION>	: description name ( %s in the string will be translate with driver name )
+		
+		<INST_DESC>		: description when installing
+		<REMOVE_DESC>	: description when uninstalling
+		<REPAIR_DESC>	: description when repairing
+		<TOOLTIP>		: Tooltip
+
+		
+		<COMP_DIR>		: Component root directory
+
+		<INF_FILE>		: inf name		==> Automation value 
+		
+		<INST_CMD os="WINXP" type="exe">	: install command file  type: "exe", "in_cmd"(Internal command lilke as Create Shortcut)
+		<INST_PARAM os="WINXP">	: install parameters
+				
+		<UNINST_CMD os="WINXP"> : uninstall command file
+		<UNINST_PARAM os="WINXP"> : uninstall parameters
+		
+		<UNINST_KEY> : Uninstall Key
+
+		Installation type : NO,ALL,GRAYCHK,CHK,UNCHK ,DEVCHK                 
+		<INSTALL_MODE default="GRAYCHK" devchk_connect_install="CHK">
+		  - default:  
+		  - devchk_connect_install: 	it is available if installation type is "DEVCHK".
+		                  						if devchk_connect_install="CHK" and the device is supports the components, the install mode shows as "Check" in component selection dialog.
+		                  						CHK, UNCHK, GRAYCHK (Default : "CHK")
+		  - devchk_not_connect_install: default installation option when the device is not available. 
+		                        CHK,UNCHK, GRAYUNCHK, GRAYCHK (Default : "CHK")
+		
+			Customized installation type
+			<SILENT_INST>
+			<SMART_INST>
+			<TYPICAL_LOCAL_INST>
+			<TYPICAL_NETWORK_INST>
+			<CUSTOM_LOCAL_INST>
+			<CUSTOM_NETWORK_INST>
+			<SOFTWARE_ONLY_INST>
+		
+		<DEVICE_STRING field="CMD,COMMAND" ext="TRUE">	: string in Device ID from a set, default field = "CMD,COMMAND", ext (using extend device id) default= false
+
+		<UNSUPPORTED_OS> : Unsupported OS list
+		
+		Information for printers
+				
+		<INF_32>	: 32bit inf name		==> Automation value 
+		<INF_64>	: 64bit inf name		==> Automation value 
+        
+		<SHARE_NAME>: shared name (Default is the printer name) 	==> Automation value 
+                                                               		
+		<DEFAULT_PRINTER> : Set default printer ("TRUE" or "NOT") ==> Automation value                                                               			
+		
+		
+		<SU_NAME> : component name for Smart Update 
+			Printer Driver (PCL)
+			Printer Driver (SPL)
+			Printer Driver (PS)
+			Printer Driver (XPS)
+			Scan Driver
+			Smart Panel Software
+			Scan Manager Software
+			Network Scan Software
+			Printer Settings Utility
+			Set IP Software
+			Smarthru 4 Software
+			Smarthru Office Software
+			Direct Printing Utility
+			PC Fax Software
+			
+			EPM
+			EDM
+			Scan Assistant 
+			Scan Manager
+			Printer Driver (SPLPCL)
+-->
+		
+		<FIRMWARE>
+			<SU_NAME>FIRMWARE</SU_NAME>
+						
+			<DISPLAY_NAME>@COMPONENT.FIRMWARE@</DISPLAY_NAME>
+			<DESCRIPTION>Firmware Display Name Description</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+		
+		</FIRMWARE>
+		
+		<SPL_PCL class="Printer">
+			
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="SPL" wow_rd="TRUE"/>
+			
+			<SU_NAME>SPL_PCL</SU_NAME>
+			<DISPLAY_NAME>@COMPONENT.PRINTER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.PRINTER_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\PRINTER\SPL_PCL</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,CHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="CHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>CHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</SPL_PCL>
+
+		<!-- SPL Mono Printer driver -->
+		<SPL class="Printer" size="27.1">
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="SPL" wow_rd="TRUE"/>
+			<SU_NAME>SPL</SU_NAME>
+			<DISPLAY_NAME>@COMPONENT.PRINTER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.PRINTER_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\PRINTER\SPL</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="CHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>CHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</SPL>
+
+
+		<!-- PCL Mono Printer driver -->
+		<PCL class="Printer" size="15.8">
+		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="PCL" wow_rd="TRUE"/>
+			
+			<SU_NAME>PCL</SU_NAME>
+
+			<DISPLAY_NAME>@COMPONENT.PRINTER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.PRINTER_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\PRINTER\PCL</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="CHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>CHK</MINIMUM_INST>
+			</INSTALL_MODE>
+			
+			
+		</PCL>
+
+
+		<PS class="Printer" size="25.9" >
+		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="PS" wow_rd="TRUE"/>
+
+			<SU_NAME>PS</SU_NAME>
+			
+			<DISPLAY_NAME>@COMPONENT.PRINTER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.PRINTER_DESC.PS.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\PRINTER\PS</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="UNCHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</PS>
+
+
+	
+		
+		<!-- XPS Printer driver -->
+		<XPS class="PRINTER" size="27.1" supported_os="VISTA, VISTA64">
+			
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="XPS" wow_rd="TRUE"/>
+
+			<SU_NAME>XPS</SU_NAME>
+					
+			<SU_NAME>Printer Driver (XPS)</SU_NAME>
+			<DISPLAY_NAME>@COMPONENT.PRINTER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.PRINTER_DESC.XPS.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\PRINTER\XPS</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="UNCHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</XPS>
+		
+
+		<!-- Scanner driver -->
+		<SCANNER class="Image" size="12.7"> <!-- copy_file="SELECT_ADDITIONAL_ONLY" additional_copyfile="COPY_COMP_INF"> -->
+		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="TWAIN" wow_rd="TRUE"/>
+			
+			<SU_NAME>SCANNER</SU_NAME>
+
+			<DISPLAY_NAME>@COMPONENT.SCANNER@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.SCANNER_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Scanner_Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Scanner_Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\Scanner</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="CHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>CHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</SCANNER>
+		
+		<SCANNER_INF class="NonDevice" driver_on="TRUE" size="8.9" copy_file="SELECT_ADDITIONAL_ONLY" additional_copyfile="COPY_COMP_INF"> 
+			
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\__MODEL__" value="TWAIN" wow_rd="TRUE"/>
+			
+			<SU_NAME>SCANNER</SU_NAME>			
+			
+			<DISPLAY_NAME>@COMPONENT.SCANNER_TWAIN@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.SCANNER_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Scanner_Driver.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\Scanner_Driver_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\Scanner</COMP_DIR>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="CHK">
+				<SOFTWARE_ONLY_INST>NO</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>CHK</MINIMUM_INST>
+			</INSTALL_MODE>
+		</SCANNER_INF>
+		
+		
+		<!-- EPM : Easy Printer Manager-->
+		<EPM copy_file="FALSE" install_only="TRUE" size="51.8">
+		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\Common" value="EPM" wow_rd="FALSE"/>
+			
+			<SU_NAME>EPM</SU_NAME>	
+			
+			<DISPLAY_NAME>@COMPONENT.EPM@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.EPM_DESC@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\EPM.bmp</DISPLAY_ICON>	
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\EPM_32.png</INSTALL_DISPLAY_ICON>
+			<COMP_DIR>$SRC_DIR$\Application\EPM</COMP_DIR>
+			<INST_PARAM>/S</INST_PARAM>
+			<INSTALL_MODE default="CHK">	
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+			</INSTALL_MODE>	
+			<SUCCESS_RETURN>0,-65535,-65536</SUCCESS_RETURN>		
+		</EPM>
+				
+	
+		<!-- Easy Document Creator -->
+		<EDC  class="EXE"  copy_file="FALSE" install_only="TRUE" size="25">		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\Common" value="Easy Document Creator" wow_rd="TRUE"/>
+			
+			<SU_NAME>EDC</SU_NAME>
+			
+			<DISPLAY_NAME>@COMPONENT.EDC@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.EDC_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\EDC.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\EDC_32.png</INSTALL_DISPLAY_ICON>			
+			
+			<COMP_DIR>$SRC_DIR$\Application\EDC</COMP_DIR>
+			
+			<INST_PARAM>/S /Address "$IP$" /MDL "$DEVICEID.MDL$" /MFG "$DEVICEID.MFG$" /ProductName "$DEVICEID.MFG$ $DEVICEID.MDL$" /DeviceID "MODE:$DEVICEID.MODE$" /Port "$PORT$"</INST_PARAM>					
+			
+			<INSTALL_MODE default="CHK">			
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+			</INSTALL_MODE>
+				
+			<SUCCESS_RETURN>0,-65535,-65536</SUCCESS_RETURN>		
+		</EDC>
+		
+		<!-- Net PC Fax -->
+		<NETPCFAX copy_file="FALSE" install_only="TRUE" size="14.3">
+		
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\Common" value="MFP PC Fax" wow_rd="FALSE"/>
+
+			<SU_NAME>PCFAX</SU_NAME>	
+			
+			<DISPLAY_NAME>@COMPONENT.PCFAX@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.NETPCFAX_DESC.NEW@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\PCFax.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\PCFax_32.png</INSTALL_DISPLAY_ICON>
+
+			<COMP_DIR>$SRC_DIR$\Application\PCFax</COMP_DIR>
+
+			<INST_PARAM>/S /IP "$IP$"</INST_PARAM>
+
+			<!-- Installation type {NO,ALL,GRAYCHK,CHK,UNCHK} -->
+			<INSTALL_MODE default="DEVCHK" devchk_connect_install="CHK">
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+			</INSTALL_MODE>
+			
+			<DEVICE_STRING field="MODE">FAX,FAX2,FAX3</DEVICE_STRING>
+			
+			<SUCCESS_RETURN>0,-65535,-65536</SUCCESS_RETURN>
+			
+		</NETPCFAX>
+		
+		
+		<!-- Wireless Setting Program -->
+		<WIRELESS_SETTING_PROGRAM copy_file="FALSE" install_only="TRUE"  wireless="TRUE" >
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\Common" value="Easy Wireless Setup" wow_rd="FALSE"/>
+			<SU_NAME>WSP</SU_NAME>	
+			
+			<DISPLAY_NAME>__MFG__ Easy Wireless Setup</DISPLAY_NAME>
+			<DESCRIPTION>@WSP.PROGRAM.DESC.SHORT@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\set-wireless.bmp</DISPLAY_ICON>
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\set-wireless.png</INSTALL_DISPLAY_ICON>
+			
+			<COMP_DIR>$SRC_DIR$\Application\WSP</COMP_DIR>
+
+			<INST_PARAM>/S</INST_PARAM>
+			
+			<INSTALL_MODE default="DEVCHK" devchk_connect_install="CHK">
+				<SILENT_INST>CHK</SILENT_INST>
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+			</INSTALL_MODE>
+			
+			<DEVICE_STRING field="CMD" use_extend="TRUE">WSP</DEVICE_STRING>
+		</WIRELESS_SETTING_PROGRAM>
+
+		<OCR copy_file="FALSE" install_only="TRUE" size="51.8">
+			<INSTALLED_VER rootkey="HKLM" key="Software\__MFG__\__MFG__PrinterLiveUpdate\SW\Common" value="OCR Software" wow_rd="FALSE"/>
+			
+			<SU_NAME>OCR</SU_NAME>	
+			
+			<DISPLAY_NAME>@COMPONENT.OCR@</DISPLAY_NAME>
+			<DESCRIPTION>@COMPONENT.OCR_DESC@</DESCRIPTION>
+			<DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\OCR.bmp</DISPLAY_ICON>	
+			<INSTALL_DISPLAY_ICON>$INST_SRC_DIR$\data\bitmap\OCR_32.png</INSTALL_DISPLAY_ICON>
+			<COMP_DIR>$SRC_DIR$\Application\OCR</COMP_DIR>
+			<INST_PARAM>/S</INST_PARAM>
+			<INSTALL_MODE default="UNCHK">
+				<SOFTWARE_ONLY_INST>CHK</SOFTWARE_ONLY_INST>
+				<SILENT_INST>CHK</SILENT_INST>
+				<ONE_COMP_INST>CHK</ONE_COMP_INST>
+				<MINIMUM_INST>UNCHK</MINIMUM_INST>
+			</INSTALL_MODE>
+			<SUCCESS_RETURN>0,-65535,-65536</SUCCESS_RETURN>	
+		</OCR>	
+	</COMPONENTS>
+
+
+	<!-- Component Class Information -->
+
+	<COMPONENT_CLASS_INFO>
+		<!--
+		<< Attributes >>
+		- class : Inf Class Name
+		- os    : OS Define String ex) WINXP,VISTA
+
+		<< Sub Elements >>
+			<INSTALLER> 		: Installer file
+			<INST_PARAM> 		: Install Parameters
+			<UNINST_PARAM> 		: Uninstall parameters
+			<SUCCESS_RETURN>	: return value if success
+-->
+
+		<!-- Printer Class -->
+		<COMPONENT_CLASS0 class="PRINTER">
+			<INSTALLER>$INST_SRC_DIR$\bin\ssinstAD.exe</INSTALLER>
+			<INST_PARAM>"$DEST_COMP_INF$" /M"$MDL$" /L"$LANG_ABBR$" /P"$PORT$" /O"$DRIVER_NAME$" /$DUPLEX$ /CF"$CFXML$"</INST_PARAM>
+			<UNINST_PARAM>"$SRC_COMP_INF$" /U /M"$MDL$" /O"$DRIVER_NAME$"</UNINST_PARAM>
+			<SUCCESS_RETURN>2</SUCCESS_RETURN>
+		</COMPONENT_CLASS0>
+
+		<!-- Image Class -->
+<!--
+		<COMPONENT_CLASS1 class="IMAGE">
+			<INSTALLER>$INST_SRC_DIR$\bin\Wiainst.exe</INSTALLER>
+			<INST_PARAM>"$SRC_COMP_INF$" /M"$MFG$" /W /l$LANG_ABBR$ /r /N"$IP$"</INST_PARAM>			
+			<UNINST_PARAM>/U"$DRIVER_NAME$"/M"$MFG$" /p</UNINST_PARAM>
+			<SUCCESS_RETURN>2</SUCCESS_RETURN>
+		</COMPONENT_CLASS1>
+-->
+
+		<COMPONENT_CLASS1 class="IMAGE">
+			<INSTALLER>$INST_SRC_DIR$\bin\Wiainst.exe</INSTALLER>
+			<INSTALLER os="WINXP64">$INST_SRC_DIR$\bin\Wiainst64.exe</INSTALLER>
+			<INSTALLER os="VISTA64">$INST_SRC_DIR$\bin\Wiainst64.exe</INSTALLER>
+			<INSTALLER os="WIN8_64">$INST_SRC_DIR$\bin\Wiainst64.exe</INSTALLER>
+			<INST_PARAM>"$DEST_COMP_INF$" /M"$MFG$" /W /l$LANG_ABBR$ /r /N"$IP$" /O"$PORT$"</INST_PARAM>
+			<UNINST_PARAM>/U"$DRIVER_NAME$"/M"$MFG$" /p</UNINST_PARAM>
+			<SUCCESS_RETURN>2</SUCCESS_RETURN>
+		</COMPONENT_CLASS1>
+
+		<!-- NonDevice Class -->
+		<COMPONENT_CLASS2 class="NONDEVICE">
+			<INSTALLER>$INST_SRC_DIR$\bin\ssndii.exe</INSTALLER>
+			<INST_PARAM>"$SRC_COMP_INF$" /L $LANG_ABBR$ /D "$DEST_DIR$" /C "@SHORTCUT_MAINT.COMMON_FOLDER_NAME_EN@" /I"$IP$" /G"0x$0XLCID$"</INST_PARAM>
+			<UNINST_PARAM>"$SRC_COMP_INF$" /U</UNINST_PARAM>
+			<SUCCESS_RETURN>2</SUCCESS_RETURN>
+		</COMPONENT_CLASS2>
+	</COMPONENT_CLASS_INFO>
+
+	<!-- Discovery type -->
+	<DISCOVERY>
+		<NETWORK max_snmp_size ="32"/>
+	</DISCOVERY>
+
+	<!-- Copy file information to be used when installing-->
+
+
+	<INSTALL_COPY_FILE_INFO>
+		<!--
+	<< Attributes >>
+	
+	- copy_subdir: Copy subdirectory or not ("TRUE" or "FALSE") Default: "FALSE"
+	- delete : Delete files and directories when uninstalling ("TRUE" or "FALSE") Default: "TRUE"
+	- is64: Copy 64bit directory or not ("TRUE" or "FALSE") Default: "FALSE"
+	- option
+	
+	<< Sub Elements >>
+		<DESCRIPTION> 	: Description
+		<SOURCE>		: Source directoy or file
+		<DESTINATION>	: Destination directory or file
+		<SUPPORTED_LANG>: Supported Language default: NULL (all supported langauges)
+		<UNSUPPORTED_OS>: Unsupported OS default: NULL (all supported OSs)
+			
+-->
+		
+	  <!-- Installer Files -->
+		<INSTALLER_BIN copy_subdir="TRUE" always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE> $SRC_DIR$\Setup\bin</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\bin</DESTINATION>
+		</INSTALLER_BIN>
+	
+		<INSTALLER_BITMAP extract_zip="TRUE" always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE> $SRC_DIR$\Setup\Data\Bitmap.zip</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\Data\Bitmap.zip</DESTINATION>
+		</INSTALLER_BITMAP>	
+
+		<INSTALLER_WARRANTY copy_subdir="TRUE" always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE> $SRC_DIR$\Setup\Data\Warranty</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\Data\Warranty</DESTINATION>
+		</INSTALLER_WARRANTY>	
+		
+		<INSTALLER_SCRIPT copy_subdir="TRUE" always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE> $SRC_DIR$\Setup\Script</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\Script</DESTINATION>
+		</INSTALLER_SCRIPT>
+		
+		<INSTALLER_STRING extract_zip="TRUE" always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE> $SRC_DIR$\Setup\String.zip</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\String.zip</DESTINATION>
+		</INSTALLER_STRING>		
+		
+		<INSTALLER_FILES_SETUP_EXE always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\setup.exe</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\setup.exe</DESTINATION>
+		</INSTALLER_FILES_SETUP_EXE>
+	
+		
+		<!-- Copy Device Monitor Files -->
+		<DEVMONDLL_WIN32 delete="FALSE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\DATA\DevMon\ssdevm.dll</SOURCE>
+			<DESTINATION>$SYS_DIR$\ssdevm.dll</DESTINATION>
+		</DEVMONDLL_WIN32>
+
+		<DEVMONDLL_WIN64 delete="FALSE" supported_os="WINXP64, VISTA64, WIN8_64" is64="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\DATA\DevMon\ssdevm64.dll</SOURCE>
+			<DESTINATION>$SYS_DIR$\ssdevm64.dll</DESTINATION>
+		</DEVMONDLL_WIN64>
+	
+
+		<!-- Copy PRN file  -->
+		<PRN_A4 always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\Data\A4.prn</SOURCE>
+			<DESTINATION>$WIN_DIR$\$OEM_ID$A4.prn</DESTINATION>
+		</PRN_A4>
+		
+		<PRN_LETTER always_copy="TRUE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\Data\Letter.prn</SOURCE>
+			<DESTINATION>$WIN_DIR$\$OEM_ID$LTR.prn</DESTINATION>
+		</PRN_LETTER>
+		
+			
+		<!-- user's guide files -->
+		
+		<HTML_GUIDE_COMMON copy_subdir="TRUE">
+			<DESCRIPTION>@FILE_COPY.MANUAL@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\MANUAL\__MODEL__\common</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\MANUAL\__MODEL__\common</DESTINATION>
+		</HTML_GUIDE_COMMON>
+		
+		<HTML_GUIDE copy_subdir="TRUE">
+			<DESCRIPTION>@FILE_COPY.MANUAL@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$</DESTINATION>
+		</HTML_GUIDE>
+	
+		<HTML_GUIDE_COMMON_ZIP copy_subdir="TRUE" extract_zip="TRUE" extract_make_subdir="TRUE">
+			<DESCRIPTION>@FILE_COPY.MANUAL@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\MANUAL\__MODEL__\common.zip</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\MANUAL\__MODEL__\common.zip</DESTINATION>
+		</HTML_GUIDE_COMMON_ZIP>
+				
+		<HTML_GUIDE_ZIP copy_subdir="TRUE" extract_zip="TRUE" extract_make_subdir="TRUE">
+			<DESCRIPTION>@FILE_COPY.MANUAL@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$.zip</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$.zip</DESTINATION>
+		</HTML_GUIDE_ZIP>
+		
+		<MANUAL_VIEWER delete="FALSE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\bin\ViewUserGuide.exe</SOURCE>
+			<DESTINATION>__MANUAL_VIEWER_DEST__</DESTINATION>
+		</MANUAL_VIEWER>
+		
+		<TOTAL_UNINSTALLER delete="FALSE">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\bin\TotalUninstaller.exe</SOURCE>
+			<DESTINATION>__TOTAL_UNINSTALLER_DEST__</DESTINATION>
+		</TOTAL_UNINSTALLER>
+
+		<PDF_GUIDE copy_subdir="TRUE">
+			<DESCRIPTION>@FILE_COPY.MANUAL@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\MANUAL\$MANUAL_LANG_DIR$</DESTINATION>
+		</PDF_GUIDE>
+
+	
+
+		<GDI_PLUS_DLL delete="FALSE" supported_os="WIN2K">
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$SRC_DIR$\gdiplus.dll</SOURCE>
+			<DESTINATION>$WIN_DIR$\gdiplus.dll</DESTINATION>
+		</GDI_PLUS_DLL>
+		
+		<WLAN_PROFILE>
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$INST_SRC_DIR$\Data\WLanProfile.xml</SOURCE>
+			<DESTINATION>$DEST_INST_DIR$\Setup\Data\WLanProfile.xml</DESTINATION>
+		</WLAN_PROFILE>
+		
+	</INSTALL_COPY_FILE_INFO>
+
+
+
+
+
+	<!-- Shortcut Information -->
+
+	<SHORTCUT_INFO>
+
+		<!--
+	<< Attributes >>
+	- group: Shorcut group ("START" or "DESKTOP") Default : "START"
+	- delete: delete shorcut when uninstalling ("TRUE" or "FALSE") Default : "TRUE"
+	- permission: user permission ("CURRENT" or "ALL") Default: "ALL"
+	- option
+	
+	<< Sub Elements >>
+		
+		<NAME>: Shorcut Name
+		<TARGET>: Shortuct target file or web address
+		<ARGUMENT>: Argument of target
+		<ICON_FILE>: Icon File path ( - index (icon file index) default = 0)
+		<FOLDER_NAME>: Shortcut folder name
+		<DESCRIPTION>: Shortcut description
+		<UNSUPPORTED_LANG>: Supported Language default: NULL (all supported langauges)   ex: WINNT,WINXP
+		<UNSUPPORTED_OS>: Unsupported OS default: NULL (all supported OSs)		ex: EN,PT
+		
+-->
+
+		<TOTAL_UNINSTALL_SHORTCUT_MUI unsupported_os="WIN2K" delete="FALSE">
+			<NAME>Uninstall __MFG__ Printer Software</NAME>
+			<TARGET>__TOTAL_UNINSTALLER_DEST__</TARGET>
+			<ARGUMENT>/N"__MFG__" /REMOVE_ALL</ARGUMENT>
+			<ICON_FILE index="0">__TOTAL_UNINSTALLER_DEST__</ICON_FILE>
+			<FOLDER_NAME>__MFG__ Printers</FOLDER_NAME>
+			<MUI_RES_DLL>__TOTAL_UNINSTALLER_DEST__</MUI_RES_DLL>
+			<MUI_RES_ID>151</MUI_RES_ID>							
+		</TOTAL_UNINSTALL_SHORTCUT_MUI>
+		
+		
+		<MANUAL_VIEWER_SHORTCUT supported_os="WIN2K" delete="FALSE" is_manual="TRUE">
+			<NAME>@SHORTCUT_MANUAL.NAME@</NAME>
+			<TARGET>__MANUAL_VIEWER_DEST__</TARGET>
+			<ARGUMENT>/VIEW /N "__MFG__"</ARGUMENT>
+			<ICON_FILE index="0">__MANUAL_VIEWER_DEST__</ICON_FILE>
+			<FOLDER_NAME>__MFG__ Printers</FOLDER_NAME>
+		</MANUAL_VIEWER_SHORTCUT>
+
+		
+		<MANUAL_VIEWER_SHORTCUT_MUI  unsupported_os="WIN2K" delete="FALSE" is_manual="TRUE">
+			<NAME>View User's Guide</NAME>
+			<TARGET>__MANUAL_VIEWER_DEST__</TARGET>
+			<ARGUMENT>/VIEW /N "__MFG__"</ARGUMENT>			
+			<ICON_FILE index="0">__MANUAL_VIEWER_DEST__</ICON_FILE>
+			<FOLDER_NAME>__MFG__ Printers</FOLDER_NAME>
+			<MUI_RES_DLL>__MANUAL_VIEWER_DEST__</MUI_RES_DLL>
+			<MUI_RES_ID>144</MUI_RES_ID>							
+		</MANUAL_VIEWER_SHORTCUT_MUI>
+
+		
+		
+	
+	</SHORTCUT_INFO>
+
+
+
+
+
+	<!-- Registry Information to be used by registry commands (Write Registry, Delete Registry -->
+
+	<REGISTRY_INFO>
+
+		<!-- 
+	<< Attributes >>
+	- rootkey  : Registry Root Key ("HKLM" or "HKCU") Default: "HKLM"
+	- delete   : Delete Key when uninstalling ("TRUE" or "FALSE") Default : "TRUE"
+	- option
+	- allaccess
+	- wow_rd
+	
+	<< Sub Elements >>
+		<KEY>	: registry Key name
+		<VALUE>	: Registry Value
+			- name : Value name
+			- type : Value type ("REG_DWORD" or "REG_SZ") default "REG_SZ"
+					if REG_DWORD and value is 0X???? ==> it is hexadecimal
+	                if REG_DWORD and Value is ????   ==> it is decimal
+-->
+		<!-- Uninstall key -->
+		<UNINSTALL_KEY rootkey="HKLM" delete="TRUE">
+			<KEY>Software\Microsoft\Windows\CurrentVersion\uninstall\$PROGRAM_NAME$</KEY>
+			<VALUE0 type="REG_SZ" name="DisplayName">$PROGRAM_NAME$</VALUE0>
+			<VALUE1 type="REG_SZ" name="UninstallString">"$DEST_INST_DIR$\__INSTALLER_FIE__" /R</VALUE1>
+			<VALUE2 type="REG_SZ" name="DisplayIcon">$DEST_INST_DIR$\__INSTALLER_FIE__</VALUE2>
+			<VALUE3 type="REG_SZ" name="Publisher">__PUBLISHER__</VALUE3>
+			<VALUE4 type="REG_DWORD" name="NoModify">1</VALUE4>
+			<VALUE5 type="REG_DWORD" name="NoRepair">1</VALUE5>
+			<VALUE6 type="REG_SZ" name="DisplayVersion">$VERSION$ ($DATE$)</VALUE6>
+			<VALUE7 type="REG_SZ" name="UninstallString_XeroxSilent">"$DEST_INST_DIR$\__INSTALLER_FIE__" /s /d /t</VALUE7>
+			<VALUE8 type="REG_SZ" name="Description">@MAININST.DESCRIPTION@</VALUE8>
+			<VALUE9 type="REG_DWORD" name="Description_ID">199</VALUE9>
+		</UNINSTALL_KEY>
+		
+		
+		<MANUAL_SHORTCUT_KEY rootkey="HKLM" delete="FALSE">
+			<KEY>Software\Microsoft\Windows\CurrentVersion\uninstall\View User Guide</KEY>
+			<VALUE0 type="REG_SZ" name="UninstallString_XeroxSilent">__MANUAL_VIEWER_DEST__ /uninstall</VALUE0>
+			<VALUE1 type="REG_SZ" name="Description">@SHORTCUT_MANUAL.NAME@</VALUE1>
+		</MANUAL_SHORTCUT_KEY>
+
+		
+		<!-- User Guide Path for Smart Panel -->
+		<USER_GUIDE_KEY rootkey="HKLM" delete="TRUE">
+			<KEY>Software\$MFG$\$PROGRAM_NAME$\Installed</KEY>
+			<VALUE0 type="REG_SZ" name="UserGuideDir">$DEST_INST_DIR$\MANUAL\__MODEL__\$MANUAL_LANG_DIR$</VALUE0>
+			<VALUE1 type="REG_SZ" name="UserGuideFile">Guide_$LANG_ABBR$.pdf</VALUE1>
+		</USER_GUIDE_KEY>
+		
+		
+		<!-- AMPV -->
+		<AMPV_TRUE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="AMPVAgree">1</VALUE0>
+		</AMPV_TRUE_64>
+		
+		<AMPV_TRUE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="AMPVAgree">1</VALUE0>
+		</AMPV_TRUE>
+		
+		<AMPV_FALSE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="AMPVAgree">0</VALUE0>
+		</AMPV_FALSE_64>
+		
+		<AMPV_FALSE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="AMPVAgree">0</VALUE0>
+		</AMPV_FALSE>
+		
+		<!-- WebTroubleshootingAgree -->
+		<WEBTS_TRUE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="WebTroubleshootingAgree">1</VALUE0>
+		</WEBTS_TRUE_64>
+		
+		<WEBTS_TRUE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="WebTroubleshootingAgree">1</VALUE0>
+		</WEBTS_TRUE>
+		
+		<WEBTS_FALSE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="WebTroubleshootingAgree">0</VALUE0>
+		</WEBTS_FALSE_64>
+		
+		<WEBTS_FALSE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="WebTroubleshootingAgree">0</VALUE0>
+		</WEBTS_FALSE>
+		
+		
+		<!-- LiveUpdateAgree -->
+		<SMARTUPDATE_TRUE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="LiveUpdateAgree">1</VALUE0>
+		</SMARTUPDATE_TRUE_64>
+		
+		<SMARTUPDATE_TRUE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="LiveUpdateAgree">1</VALUE0>
+		</SMARTUPDATE_TRUE>
+		
+		<SMARTUPDATE_FALSE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="LiveUpdateAgree">0</VALUE0>
+		</SMARTUPDATE_FALSE_64>
+		
+		<SMARTUPDATE_FALSE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="LiveUpdateAgree">0</VALUE0>
+		</SMARTUPDATE_FALSE>
+		
+		<INSTALL_VC>
+			<KEY>Software\$MFG$\$PROGRAM_NAME$\Installing\Setup</KEY>
+			<VALUE0 type="REG_DWORD" name="Install_VC">1</VALUE0>
+		</INSTALL_VC>
+		
+		<!-- Delete Reg-->
+		<WEB_AGREE_TRUE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="Agree">1</VALUE0>
+		</WEB_AGREE_TRUE_64>
+		
+		<WEB_AGREE_TRUE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="Agree">1</VALUE0>
+		</WEB_AGREE_TRUE>
+		
+		<WEB_AGREE_FALSE_64 rootkey="HKLM" delete="TRUE"  supported_os="WINXP64, VISTA64, WIN8_64" wow_rd="TRUE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="Agree">0</VALUE0>
+		</WEB_AGREE_FALSE_64>
+		
+		<WEB_AGREE_FALSE rootkey="HKLM" delete="TRUE"  wow_rd="FALSE" allaccess="TRUE">
+			<KEY>Software\__MFG__\WEB_AGREEMENT\__MODEL__</KEY>
+			<VALUE0 type="REG_DWORD" name="Agree">0</VALUE0>
+		</WEB_AGREE_FALSE>
+
+	</REGISTRY_INFO>
+
+
+
+	<!-- File Information to be used by file operation commands (Delete file, Copy file, Copy Directory or Delete Directory -->
+	<FILE_INFO>
+		<!--
+	same with <INSTALL_COPY_FILE_INFO>
+			
+-->
+		<COPY_COMP_INF>
+			<DESCRIPTION>@FILE_COPY.INSTALLATION@</DESCRIPTION>
+			<SOURCE>$SRC_COMP_INF$</SOURCE>
+			<DESTINATION>$DEST_COMP_INF$</DESTINATION>
+		</COPY_COMP_INF>
+		
+	</FILE_INFO>
+	
+	<INSTALLER_FILES>
+		<UI_DLL>
+			<FILE>$INST_SRC_DIR$\bin\SSWSP.dll</FILE>				
+		</UI_DLL>
+		<!-- <SETIP_DLL>$INST_SRC_DIR$\bin\SetIP.dll</SETIP_DLL> -->
+	</INSTALLER_FILES>
+	
+	
+	<!-- Language Information -->
+	<LANGUAGES_INFO>
+
+		<!--
+		<< Attributes >>
+		- default : default language
+		- id: Language code											It should be upper-case
+		- inst_id: Installation language code	  It should be upper-case
+		- abbr: abbreviation
+		- dir: Directory name	
+		- is_code: Installshield code (Default: same with "id")
+		- display: display string
+		- rtl_Layout
+ : TRUE or FALSE (Default : FALSE) 
+-->
+
+		<ENGLISH id="0X0009" inst_id="0X0009" abbr="EN" dir="ENGLISH" display="LANG.ENGLISH" default="TRUE" su_id="0X0009"/>
+	
+		<FRENCH id="0X040C" abbr="FN" dir="FRENCH" display="LANG.FRENCH" su_id="0X040C"/>
+
+		<GERMAN id="0X0007" abbr="GR" dir="GERMAN" display="LANG.GERMAN" su_id="0X0007"/>
+
+		<ITALIAN id="0X0010" abbr="IT" dir="ITALIAN" display="LANG.ITALIAN" su_id="0X0010"/>
+
+		<SPANISH id="0X000A" abbr="SP" dir="SPANISH" display="LANG.SPANISH" su_id="0X000A"/>
+
+		<RUSSIAN id="0X0019" abbr="RU" dir="RUSSIAN" display="LANG.RUSSIAN" su_id="0X0019"/>
+
+		<PORTUGUESE_BRAZILIAN id="0X0416" abbr="BP" dir="PORTUGUESE_BRAZILIAN" display="LANG.PORTUGUESE_BRAZILIAN" su_id="0X0416"/>
+
+		<SWEDISH id="0X001D" abbr="SW" dir="SWEDISH" display="LANG.SWEDISH" su_id="0X001D"/>
+
+		<DANISH id="0X0006" abbr="DN" dir="DANISH" display="LANG.DANISH" su_id="0X0006"/>
+
+		<NORWEGIAN id="0X0014" abbr="NR" dir="NORWEGIAN" display="LANG.NORWEGIAN" su_id="0X0014"/>
+
+		<FINNISH id="0X000B" abbr="FI" dir="FINNISH" display="LANG.FINNISH" su_id="0X000B"/>
+
+		<POLISH id="0X0015" abbr="PO" dir="POLISH" display="LANG.POLISH" su_id="0X0015"/>
+
+		<DUTCH id="0X0013" abbr="DT" dir="DUTCH" display="LANG.DUTCH" su_id="0X0013"/>
+
+		<HUNGARIAN id="0X000E" abbr="HU" dir="HUNGARIAN" display="LANG.HUNGARIAN" su_id="0X000E"/>
+
+		<GREEK id="0X0008" abbr="EL" dir="GREEK" display="LANG.GREEK" su_id="0X0008"/>
+
+		<TURKISH id="0X001F" abbr="TK" dir="TURKISH" display="LANG.TURKISH" su_id="0X001F"/>
+
+		<CZECH id="0X0005" abbr="CZ" dir="CZECH" display="LANG.CZECH" su_id="0X0005"/>
+
+		<ARABIC id="0X0001" abbr="AB" dir="ARABIC" display="LANG.ARABIC" rtl_layout="TRUE" su_id="0X0001"/>
+
+		<HEBREW id="0X000D" abbr="HB" dir="HEBREW" display="LANG.HEBREW" rtl_layout="TRUE" su_id="0X000D"/>
+
+	</LANGUAGES_INFO>
+	
+	<ERP_LANG_LIST support_all="FALSE">
+		<AUT icountry="61"/>
+		<BEL icountry="32"/>
+		<BGR icountry="359"/>
+		<CYP icountry=""/>
+		<CZE icountry="420"/>
+		<DNK icountry="45"/>
+		<EST icountry="372"/>
+		<FIN icountry="358"/>
+		<FRA icountry="33"/>
+		<DEU icountry="49"/>
+		<GRC icountry="30"/>
+		<HUN icountry="36"/>
+		<IRL icountry="354"/>
+		<ITA icountry="39"/>
+		<LVA icountry="371"/>
+		<LTU icountry="370"/>
+		<LUX icountry="352"/>
+		<MLT icountry=""/>
+		<NLD icountry="31"/>
+		<POL icountry="48"/>
+		<PRT icountry="351"/>
+		<ROU icountry="40"/>
+		<ROM icountry="40"/>
+		<SVK icountry="421"/>
+		<SVN icountry="386"/> 
+		<ESP icountry="34"/>
+		<SWE icountry="46"/>
+		<GBR icountry="44"/>
+	</ERP_LANG_LIST>
+
+	<SET_ALTITUDE_LIST>
+		<MEX id="0X080A" altitude="HIGH2" country_name="@FINISH.CITYLIST.CITY.MEXICO@" prn="$INST_SRC_DIR$\Data\Altitude\High2.prn">
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY6@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY7@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY8@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY9@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.MEXICO.CITY10@</CITY>
+		</MEX>
+		<COL id="0X240A" altitude="HIGH2" country_name="@FINISH.CITYLIST.CITY.COLOMBIA@" prn="$INST_SRC_DIR$\Data\Altitude\High2.prn">
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.COLOMBIA.CITY6@</CITY>
+		</COL>
+		<ECU id="0X300A" altitude="HIGH2" country_name="@FINISH.CITYLIST.CITY.ECUADOR@" prn="$INST_SRC_DIR$\Data\Altitude\High2.prn">
+			<CITY>@FINISH.CITYLIST.CITY.ECUADOR.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.ECUADOR.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.ECUADOR.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.ECUADOR.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.ECUADOR.CITY5@</CITY>
+		</ECU>
+
+		<PER id="0X280A" altitude="HIGH2" country_name="@FINISH.CITYLIST.CITY.PERU@" prn="$INST_SRC_DIR$\Data\Altitude\High2.prn">
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY6@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.PERU.CITY7@</CITY>
+		</PER>
+		<BOL id="0X400A" altitude="HIGH3" country_name="@FINISH.CITYLIST.CITY.BOLIVIA@" prn="$INST_SRC_DIR$\Data\Altitude\High3.prn">
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BOLIVIA.CITY6@</CITY>
+		</BOL>	
+		<BRA id="0X0416" altitude="HIGH1" country_name="@FINISH.CITYLIST.CITY.BRAZIL@" prn="$INST_SRC_DIR$\Data\Altitude\High1.prn">
+			<CITY>@FINISH.CITYLIST.CITY.BRAZIL.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BRAZIL.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BRAZIL.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BRAZIL.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.BRAZIL.CITY5@</CITY>
+		</BRA>	
+		<GTM id="0X100A" altitude="HIGH1" country_name="@FINISH.CITYLIST.CITY.GUATEMALA@" prn="$INST_SRC_DIR$\Data\Altitude\High1.prn">
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.GUATEMALA.CITY6@</CITY>
+		</GTM>
+		<IRN id="0X0429" altitude="HIGH1" country_name="@FINISH.CITYLIST.CITY.IRAN@" prn="$INST_SRC_DIR$\Data\Altitude\High1.prn">
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY1@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY2@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY3@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY4@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY5@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY6@</CITY>
+			<CITY>@FINISH.CITYLIST.CITY.IRAN.CITY7@</CITY>
+		</IRN>
+	</SET_ALTITUDE_LIST>
+
+	<!-- OS Information
+	<< Attributes >>
+	- support_unknown = "LATEST" or "NO"
+		."LATEST"	: Support unknown OS as latest version in the list
+		."NO"		: not supported
+-->
+	<OS_INFO support_unknown="NO">
+
+		<!--
+	<< Atributes >>
+	- platform_id:  (0,1,2) ==> Default : 2
+		.VER_PLATFORM_WIN32s             0
+		.VER_PLATFORM_WIN32_WINDOWS      1
+		.VER_PLATFORM_WIN32_NT           2
+	- major: Major Version
+	- minor: Minor Version
+	- x64  : 64bit or not ("TRUE" or "FALSE")
+	- producttype: "PRO" (Professional) , "SER" (Server), "DOM" (Domain Server)
+	- dir : fixed OS directory
+		
+	
+-->
+
+		<WINNT platform_id="2" major="4" minor="0" dir="WINNT"/>
+		
+		<WIN2K platform_id="2" major="5" minor="0" dir="WINXP_2000_VISTA_32"/>
+			
+		<WINXP platform_id="2" major="5" minor="1" dir="WINXP_2000_VISTA_32"/>
+
+		<WINXP64 platform_id="2" major="5" x64="TRUE" dir="WINXP_VISTA_64"/>
+
+		<VISTA platform_id="2" major="6" minor="0" dir="WINXP_2000_VISTA_32"/>
+
+		<VISTA64 platform_id="2" major="6" minor="0" x64="TRUE" dir="WINXP_VISTA_64"/>
+		
+		<WIN8 platform_id="2" major="6" minor="2" dir="WINXP_2000_VISTA_32"/>
+
+		<WIN8_64 platform_id="2" major="6" minor="2" x64="TRUE" dir="WINXP_VISTA_64"/>
+	</OS_INFO>
+
+
+	<!-- Set Altitude Command 
+	<< Attributes >>
+	- None
+	
+	<<Sub Element>>
+		- <COMMAND> : Altitude Command String
+-->
+
+	<SET_ALTITUDE_INFO set_alti="TRUE">		
+		<COMMAND>$INST_SRC_DIR$\bin\SSAlti.exe,  /p "$PORT$" /i "$IP$" /R "SOFTWARE\$MFG$\$PROGRAM_NAME$" /D "$INST_SRC_DIR$\Altitude\SSAlti.dat" </COMMAND>
+	</SET_ALTITUDE_INFO>
+	
+
+	<TEST_PAGE>
+		<COMMON>
+			<FILE>$INST_SRC_DIR$\Data\PrintJob.CI3</FILE>
+		</COMMON>
+
+		<PRN>
+			<FILE>$INST_SRC_DIR$\Data\Testpage.prn</FILE>
+		</PRN>
+		
+		<DEMO>
+			<FILE_A4>$INST_SRC_DIR$\Data\A4.prn</FILE_A4>
+			<FILE_LETTER>$INST_SRC_DIR$\Data\Letter.prn</FILE_LETTER>
+		</DEMO>
+	</TEST_PAGE>
+
+	<!-- Pre Install -->
+
+	<PRE_INSTALL_INFO>
+		
+		<SSPORT_XP64 supported_os="WINXP64" is64="TRUE" delete="FALSE">	
+			<SOURCE>$INST_SRC_DIR$\VECP\WIN64\SSPORT.SYS</SOURCE>
+			<DESTINATION>$SYS_DIR$\drivers\SSPORT.SYS</DESTINATION>
+		</SSPORT_XP64>
+						
+		<SSPORT_VISTA32 supported_os="VISTA, WIN8" delete="FALSE">	
+			<SOURCE>$INST_SRC_DIR$\VECP\VISTA\SSPORT.SYS</SOURCE>
+			<DESTINATION>$SYS_DIR$\drivers\SSPORT.SYS</DESTINATION>
+		</SSPORT_VISTA32>	
+		
+		<SSPORT_VISTA64 supported_os="VISTA64, WIN8_64" is64="TRUE" delete="FALSE">	
+			<SOURCE>$INST_SRC_DIR$\VECP\VISTA_64\SSPORT.SYS</SOURCE>
+			<DESTINATION>$SYS_DIR$\drivers\SSPORT.SYS</DESTINATION>
+		</SSPORT_VISTA64>	
+
+	</PRE_INSTALL_INFO>
+
+	<INSTALL_VARIABLES>
+		<MFG									path="Installing\MODEL" value="MFG" />
+		<LANG_ABBR						path="Installing\Setup\Language" value="Lang_Abbr" />
+		<ORG_LANG_ABBR				path="Installing\Setup\Language" value="Org_Lang_Abbr" />
+		<MANUAL_LANG_ABBR			path="Installing\Setup\Language" value="Manual_Lang_Abbr" />
+		<LCID									path="Installing\Setup\Language" value="Lang_Code" 			reg_type="REG_DWORD" />
+		<LCID_IS							path="Installing\Setup\Language" value="LCID_IS" 				reg_type="REG_DWORD" />
+		<ORG_LCID							path="Installing\Setup\Language" value="Org_Lang_Code" 	reg_type="REG_DWORD" />
+		<LANG_DIR							path="Installing\Setup\Language" value="Lang_Dir" />
+		<MANUAL_LANG_DIR			path="Installing\Setup\Language" value="Manual_Lang_Dir" />
+		<ORG_LANG_DIR					path="Installing\Setup\Language" value="Org_Lang_Dir" />
+		<SRC_DIR							path="Installing\Setup\Program" value="CD_Source_Dir" />
+		<INST_SRC_DIR					path="Installing\Setup\Program" value="Inst_Source_Dir" />
+		<DEST_DIR							path="Installing\Setup\Program" value="Dest_Dir" />
+		<DEST_INST_DIR				path="Installing\Setup\Program" value="Inst_Dest_Dir" />
+		<PROGRAM_NAME					path="Installing\Setup\Program" value="Program_Name" />
+		<OEM_ID								path="Installing\Setup\Program" value="OEM_ID" />
+		<WIN_DIR							path="Installing\Setup\OS" value="Windows_Dir" />
+		<SYS_DIR							path="Installing\Setup\OS" value="System_Dir" />
+		<INF_DIR							path="Installing\Setup\OS" value="INF_Dir" />
+		<OS_DIR								path="Installing\Setup\OS" value="OS_Dir" />
+		<SYSTEM_DRIVER				path="Installing\Setup\OS" value="System_Dir" />
+		<PROGRAM_FILES_DIR		path="Installing\Setup\OS" value="ProgramFiles_Dir" />
+		<TEMP_DIR							path="Installing\Setup\OS" value="Temp_Dir" />
+		<PRINTER_DRIVER_DIR		path="Installing\Setup\OS" value="Print_Driver_Dir" />
+		<DEVICE_STAGE_DIR			path="Installing\Setup\OS" value="Device_Stage_Dir" />
+		<SSID									path="Installing\WSP\Setting" value="SSID" />
+		<MODEL_IMAGE					path="Installing\MODEL" value="ModelImage" />
+		<DEFAULT_MODEL_IMAGE	path="Installing\MODEL" value="DefaultImage" />
+		<DUPLEX								path="Installing\Setup\Program" value="Duplex" />
+		<CFXML								path="Installing\Setup\Program" value="Cfxml" />
+		<MANUAL_LANG_DISP_STR		path="Installing\Setup\Language" value="Manual_Lang_Disp_Str" />
+		<INSTALL_MODE		path="Installing\Setup" value="Install_Mode" />		
+		
+		
+	<!--	following variable will be changed by core source==> it is fixed
+		<VERSION				path="" value="" />
+		<IP						path="" value="" />
+		<PORT					path="" value="" />
+		<INSTALLER_EXE			path="" value="" />
+		<MODEL_DIR				path="" value="" />
+		<MODEL_NAME				path="" value="" />
+		
+		<VIDPID					path="" value="" />
+		<MDL					path="" value="" />
+		<SRC_COMP_INF			path="" value="" />
+		<DEST_COMP_INF			path="" value="" />
+		<COMP_INF				path="" value="" />
+		<COMP_NAME				path="" value="" />
+		<DRIVER_NAME			path="" value="" />
+	-->
+		
+	</INSTALL_VARIABLES>
+</INFORMATION>
